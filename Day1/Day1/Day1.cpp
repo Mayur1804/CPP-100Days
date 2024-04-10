@@ -1,16 +1,15 @@
 
-#include "testTwo.h"
+
 #include <iostream>
+using namespace std;
 
 int main()
 {
     
-    testTwo aa;
-    aa.printMessage();
-    int a;
-    std::cout << "Enter Int";
-    std::cin >> a;
-    std::cout << "Hello World!\n";
-    std::cout << a;
-}
+    // this will give the address of variable
+    int ptr = 10;
+    cout << &ptr << endl;
 
+    int* n = &ptr;
+    cout << *n << endl;
+}
