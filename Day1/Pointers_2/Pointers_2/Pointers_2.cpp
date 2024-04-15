@@ -1,5 +1,5 @@
 // Pointers_2.cpp : This file contains the 'main' function. Program execution begins and ends there.
-// Void Pointer - Can point to any datatype
+// Void Pointer - It can point to any datatype
 
 #include <iostream>
 using namespace std;
@@ -19,5 +19,3 @@ int main()
 	print(&letter, 'c');
 	print(&number, 'i');
 }
-
-
