@@ -2,9 +2,9 @@
 
 #include <iostream> 
 
-using namespace std; 
+using namespace std;
 
-int main() 
+int main()
 {
     int size; // Declare an integer variable 'size' to store the size of the array
     cout << " Enter size - "; // Prompt the user to enter the size of the array
