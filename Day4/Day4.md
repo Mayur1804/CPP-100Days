@@ -4,4 +4,4 @@ This program demonstrates the use of dynamic arrays in C++. It allows the user t
 
 (classes)
 
-In this program we got to know about class and how to write it simply
+In this program we got to know about class and how to write it simple
