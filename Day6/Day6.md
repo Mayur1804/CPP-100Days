@@ -16,4 +16,4 @@ Unlike constructors, there is only one destructor per class, and it cannot be ov
 (inheritance)  
 Inheritance is a fundamental concept in object-oriented programming (OOP).  
 It allows one class (the base class or parent class) to pass on its properties and behaviors to another class (the derived class or child class).  
-The derived class inherits features (such as member variables and member functions) from the base class, promoting code reuse and organization  
+The derived class inherits features (such as member variables and member functions) from the base class, promoting code reuse and organization 
