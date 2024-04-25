@@ -49,7 +49,7 @@ int main()
     logcall logtext;
 
     // Set the log level to warning
-    logtext.setLevel(logtext.logLevelWarning);
+    //logtext.setLevel(logtext.logLevelWarning);
 
     // Print a warning message
     logtext.warn("Hello");
