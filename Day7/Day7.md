@@ -1,0 +1,2 @@
+(virtualFunction)
+A virtual function is a member function declared within a base class and redefined (overridden) by a derived class. When you refer to a derived class object using a pointer or a reference to the base class, you can call a virtual function for that object and execute the derived class’s version of the method.
