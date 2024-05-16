@@ -10,7 +10,7 @@ private:
 
 public:
     // Constructor to initialize the const data member
-    MyClass(int value) : constantValue(value) {}
+    MyClass(int value, int anotherVal) : constantValue(value) {}
 
     // Member function to retrieve the value of the const data member
     int getConstantValue() const {
@@ -25,7 +25,7 @@ public:
 };
 
 int main() {
-    MyClass obj(5); // Creating an object of MyClass with constantValue initialized to 5
+    MyClass obj(5,10); // Creating an object of MyClass with constantValue initialized to 5
     std::cout << "Constant Value: " << obj.getConstantValue() << std::endl;
 
     // Uncommenting the line below will cause a compilation error
